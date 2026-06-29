@@ -1,1 +1,244 @@
+{
+  "type": "FeatureCollection",
+  "name": "Tagoloan River Basin — Enhanced",
+  "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tagoloan River Basin",
+        "type": "hec_hms_domain",
+        "area_km2": 1704,
+        "source": "Traced from USTP/PAGASA location map",
+        "crs": "WGS84",
+        "province": "Misamis Oriental",
+        "region": "Northern Mindanao (Region X)",
+        "philippines": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [124.690, 8.622], [124.710, 8.618], [124.730, 8.615], [124.755, 8.610],
+          [124.775, 8.605], [124.790, 8.598], [124.800, 8.585], [124.810, 8.570],
+          [124.815, 8.552], [124.820, 8.535], [124.825, 8.515], [124.830, 8.495],
+          [124.835, 8.475], [124.840, 8.455], [124.845, 8.435], [124.848, 8.415],
+          [124.850, 8.395], [124.852, 8.375], [124.855, 8.355], [124.857, 8.335],
+          [124.858, 8.315], [124.855, 8.295], [124.850, 8.278], [124.843, 8.262],
+          [124.835, 8.248], [124.825, 8.235], [124.815, 8.225], [124.805, 8.215],
+          [124.793, 8.207], [124.780, 8.200], [124.765, 8.195], [124.750, 8.192],
+          [124.735, 8.190], [124.718, 8.190], [124.700, 8.193], [124.685, 8.198],
+          [124.670, 8.205], [124.658, 8.215], [124.648, 8.228], [124.640, 8.242],
+          [124.635, 8.258], [124.630, 8.275], [124.627, 8.295], [124.625, 8.315],
+          [124.623, 8.335], [124.622, 8.355], [124.622, 8.375], [124.623, 8.395],
+          [124.625, 8.415], [124.628, 8.435], [124.632, 8.455], [124.638, 8.473],
+          [124.645, 8.490], [124.650, 8.505], [124.652, 8.520], [124.650, 8.535],
+          [124.645, 8.548], [124.638, 8.560], [124.630, 8.570], [124.622, 8.580],
+          [124.618, 8.590], [124.620, 8.600], [124.628, 8.610], [124.640, 8.617],
+          [124.655, 8.621], [124.672, 8.623], [124.690, 8.622]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Upper Tagoloan Watershed",
+        "type": "sub_basin",
+        "sub_basin_id": "W-01",
+        "area_km2": 420,
+        "elevation_range": "600–1800 m",
+        "land_cover": "Forest / brushland",
+        "notes": "Northern headwaters originating from Mt. Kalatungan range. Primary source of dry-season baseflow."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [124.705, 8.598], [124.728, 8.618], [124.755, 8.615], [124.780, 8.608],
+          [124.800, 8.598], [124.810, 8.570], [124.805, 8.535], [124.795, 8.508],
+          [124.775, 8.492], [124.755, 8.488], [124.730, 8.490], [124.710, 8.498],
+          [124.695, 8.515], [124.688, 8.540], [124.690, 8.565], [124.698, 8.582],
+          [124.705, 8.598]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Middle-East Sub-basin",
+        "type": "sub_basin",
+        "sub_basin_id": "W-02",
+        "area_km2": 360,
+        "elevation_range": "200–600 m",
+        "land_cover": "Secondary forest / agriculture",
+        "notes": "Main stem drainage. Site of proposed Tagoloan II hydropower dam. Moderate to high sediment load."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [124.755, 8.488], [124.775, 8.492], [124.795, 8.508], [124.815, 8.515],
+          [124.835, 8.510], [124.848, 8.495], [124.850, 8.465], [124.845, 8.430],
+          [124.835, 8.400], [124.820, 8.378], [124.800, 8.362], [124.780, 8.358],
+          [124.760, 8.362], [124.742, 8.375], [124.735, 8.395], [124.735, 8.420],
+          [124.740, 8.450], [124.748, 8.472], [124.755, 8.488]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Middle-West Sub-basin",
+        "type": "sub_basin",
+        "sub_basin_id": "W-03",
+        "area_km2": 310,
+        "elevation_range": "150–500 m",
+        "land_cover": "Agriculture / secondary forest",
+        "notes": "Mid-elevation slopes. Dense secondary forest. Seasonal high discharge during typhoon season."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [124.688, 8.540], [124.695, 8.515], [124.710, 8.498], [124.730, 8.490],
+          [124.742, 8.475], [124.735, 8.450], [124.728, 8.418], [124.718, 8.390],
+          [124.705, 8.362], [124.688, 8.342], [124.672, 8.338], [124.655, 8.342],
+          [124.643, 8.358], [124.635, 8.378], [124.632, 8.405], [124.635, 8.432],
+          [124.640, 8.458], [124.648, 8.478], [124.660, 8.492], [124.675, 8.502],
+          [124.688, 8.515], [124.688, 8.540]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lower-East Sub-basin",
+        "type": "sub_basin",
+        "sub_basin_id": "W-04",
+        "area_km2": 270,
+        "elevation_range": "50–200 m",
+        "land_cover": "Agriculture / grassland",
+        "notes": "Eastern lowland drainage. Major agricultural area. Connects to Tagoloan municipality flood plain."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [124.742, 8.375], [124.760, 8.362], [124.780, 8.358], [124.800, 8.362],
+          [124.820, 8.378], [124.840, 8.372], [124.852, 8.352], [124.855, 8.322],
+          [124.848, 8.292], [124.835, 8.268], [124.815, 8.250], [124.795, 8.240],
+          [124.772, 8.240], [124.752, 8.248], [124.735, 8.262], [124.725, 8.282],
+          [124.722, 8.305], [124.725, 8.330], [124.732, 8.352], [124.742, 8.375]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lower-West Sub-basin",
+        "type": "sub_basin",
+        "sub_basin_id": "W-05",
+        "area_km2": 230,
+        "elevation_range": "30–150 m",
+        "land_cover": "Agriculture / settlements",
+        "notes": "Lower foothills draining into Macajalar Bay. High flood risk zone."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [124.635, 8.378], [124.643, 8.358], [124.655, 8.342], [124.672, 8.338],
+          [124.688, 8.342], [124.705, 8.362], [124.715, 8.345], [124.718, 8.318],
+          [124.715, 8.288], [124.705, 8.262], [124.690, 8.240], [124.670, 8.228],
+          [124.648, 8.228], [124.630, 8.238], [124.618, 8.255], [124.612, 8.278],
+          [124.612, 8.305], [124.618, 8.332], [124.628, 8.355], [124.635, 8.378]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Delta and Coastal Zone",
+        "type": "sub_basin",
+        "sub_basin_id": "W-06",
+        "area_km2": 114,
+        "elevation_range": "0–30 m",
+        "land_cover": "Mangrove / rice paddy / estuary",
+        "notes": "Estuarine and coastal lowland. Mangrove fringe along Macajalar Bay shoreline. Flood-prone during surge events."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [124.628, 8.355], [124.618, 8.332], [124.612, 8.305], [124.612, 8.278],
+          [124.620, 8.255], [124.635, 8.245], [124.648, 8.245], [124.670, 8.228],
+          [124.690, 8.225], [124.710, 8.228], [124.725, 8.238], [124.720, 8.218],
+          [124.710, 8.205], [124.695, 8.198], [124.675, 8.195], [124.655, 8.195],
+          [124.635, 8.200], [124.618, 8.210], [124.625, 8.230], [124.630, 8.252],
+          [124.625, 8.272], [124.625, 8.298], [124.628, 8.325], [124.628, 8.355]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tagoloan River (main stem)",
+        "type": "river",
+        "stream_order": 1,
+        "length_km": 115,
+        "flows_to": "Macajalar Bay"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [124.748, 8.612], [124.745, 8.582], [124.748, 8.555], [124.752, 8.520],
+          [124.748, 8.488], [124.742, 8.455], [124.738, 8.420], [124.735, 8.385],
+          [124.730, 8.350], [124.726, 8.312], [124.722, 8.278], [124.718, 8.245],
+          [124.712, 8.215]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "West tributary 1", "type": "river", "stream_order": 2 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[124.638, 8.502], [124.655, 8.498], [124.678, 8.492], [124.702, 8.490], [124.720, 8.488]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "West tributary 2", "type": "river", "stream_order": 2 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[124.622, 8.410], [124.638, 8.405], [124.660, 8.398], [124.688, 8.392], [124.715, 8.390]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "West tributary 3", "type": "river", "stream_order": 2 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[124.618, 8.322], [124.638, 8.318], [124.662, 8.315], [124.690, 8.318], [124.715, 8.320]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "East tributary 1", "type": "river", "stream_order": 2 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[124.800, 8.568], [124.788, 8.548], [124.772, 8.525], [124.758, 8.500], [124.748, 8.478]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "East tributary 2", "type": "river", "stream_order": 2 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[124.848, 8.420], [124.830, 8.415], [124.808, 8.410], [124.782, 8.408], [124.758, 8.410]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "East tributary 3", "type": "river", "stream_order": 2 },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[124.852, 8.330], [124.835, 8.328], [124.812, 8.326], [124.788, 8.325], [124.762, 8.328]]
+      }
+    }
+  ]
+}
 
