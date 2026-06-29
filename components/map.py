@@ -1,3 +1,4 @@
+from components.basemaps import add_basemaps
 import folium
 from streamlit_folium import st_folium
 
