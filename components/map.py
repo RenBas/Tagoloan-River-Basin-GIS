@@ -1,3 +1,4 @@
+from components.basemaps import add_basemaps
 import folium
 from streamlit_folium import st_folium
 
@@ -9,12 +10,14 @@ from utils.styles import (
 
 def create_map(geojson):
 
-    m = folium.Map(
-        location=[8.42, 124.74],
-        zoom_start=10,
-        control_scale=True,
-        tiles="OpenStreetMap"
-    )
+   m = folium.Map(
+    location=[8.42,124.74],
+    zoom_start=10,
+    control_scale=True,
+    tiles=None
+)
+
+add_basemaps(m)
 
     folium.GeoJson(
         geojson,
