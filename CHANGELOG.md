@@ -12,3 +12,4 @@ Date: 2026-06-29
 - Streamlit Community Cloud deployment
 - Zoom and pan functionality
 - Scale bar
+v0.2.0-alpha1 - Intelligent symbology and interactive feature styling
